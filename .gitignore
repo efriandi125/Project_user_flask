@@ -141,7 +141,9 @@ venv.bak/
 
 # mkdocs documentation
 /site
-
+/static/
+/.vscode
+migrations/
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -181,6 +183,8 @@ pyrightconfig.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
+.vscode/launch.json
+migrations/*
 # Local History for Visual Studio Code
 .history/
 
